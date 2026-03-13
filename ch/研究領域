@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MMNLab - 研究領域</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">MMNLab</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="advisor.html">指導教授</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="research.html">研究領域</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="plan.html">研究計畫</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="publication.html">學術論文</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="course.html">課程與專題</a>
+                </li>
+            </ul>
+            <div class="btn-group" role="group">
+                <a type="button" class="btn btn-secondary active" href="#">繁中</a>
+                <a type="button" class="btn btn-secondary" href="../research.html">En</a>
+            </div>
+        </div>
+    </nav> 
+
+    <div class="container text-center" style="padding-top: 75px;">
+        <h1 style="text-align: left; margin-bottom: 30px;">2026年9月入學之碩博班研究領域與主題(<a href="../files/2026年8月-碩博班研究領域與主題.doc">here</a>)</h1>
+        <h1 style="text-align: left; margin-bottom: 30px;"><span id="a"></span></h1>
+		<script>
+		const dateObject = new Date();
+		const month = dateObject.getMonth();
+		const dateObject1 = new Date();
+		const date = dateObject1.getDate();
+		var x=month+1;
+		var a="碩士班:4人(仍可招收名額4人 更新日期"+x+"月"+date+"日)";
+		document.getElementById('a').textContent = a;
+		</script>
+        <h1 style="text-align: left; margin-bottom: 30px;">博士班:無限制</h1>
+        
+        <h5 style="text-align: left;">研究領域 :</h5>
+        <p style="text-align: left;"><font size="5">Keywords</font>: vehicular ad hoc Network (VANET), Connected Vehicles, Internet of Vehicles (IOV), 4G Cellular Vehicular to Everything (C-V2X), 5G NR C-V2X, Internet of things (IOT), Mobile/Multi-Access Edge Compution (MEC), Platoon Control, Video Streaming, Multicast and Boradcast</p>
+        
+        <ol class="detail text-left">
+            <li>
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    <h5>Wireless Mobile and Broadband Networks</h5>
+                </button>
+                <ul id="collapse1" class="collapse">
+                    <li>Non-Terrestrial Network(NTN) :</li>
+                        <ul> 
+                            <li>Satellite Handoff</li>
+                            <li>Resource Allocation</li>
+                        </ul> 
+                    <li>Vehicular Network :</li>
+                        <ul> 
+                            <li>IEEE 802.11p/802.11bd Wi Fi Protocols for Vehicular Ad Hoc Network (VANET)</li>
+                            <li>4g/5G C-V2X/NR C-V2X protocols for Vehicular ad hoc Network (VANET)</li>
+							<li>Mobile/Multiaccess Edge Computing (MEC)-based VANET Offloading Techniques </li>
+						</ul>                    
+                    <li>Internet Of Things (IOT)</li>
+                        <ul>
+                            <li>IEEE 802.11ah Protocols for Internet of Things (IOT)</li>
+                            <li>Power saving Protocols of M2M Communication for Internet of Things (IOT) </li>
+                        </ul>
+                </ul>
+            </li>
+            <li>
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    <h5>Pervasive and Ubiquitous Computing and Communication</h5>
+                </button>
+                <ul id="collapse2" class="collapse">
+                    <li>Platoon-based Data Sharing using Side Link Communication over 4G/5G</li>
+                    <li>Mobile/Multi-Access Edge Computing (MEC)-based Clustering Methods for Mobile Social Network in Proximity (MSNP), Social Internet of Things in Proximity (SIOTP) and Vehicular Social Network (VSN)</li>
+                </ul>
+            </li>
+            <li>
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    <h5>Multimedia Streaming</h5>
+                </button>
+                <ul id="collapse3" class="collapse">
+					<li>MPEG DASH Video Streaming</li>
+					<li>SVC Video Streaming</li>
+                    <li>Multimedia Boradcast Service (MBS) over 4G/5G cellular Networks</li>
+                    <li>Multipath QUIC Video streaming</li>
+                </ul>
+            </li>
+            <li>
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    <h5>Innovative Network Applications and Services</h5>
+                </button>
+                <ul id="collapse4" class="collapse"> 
+                    <li>
+                        The Demodulating and Encoding Heritage (DEH) touring and navigation service platform for Taiwan Mobile Digital Culture Heritage (M-DCH) - Exploring Historic Pulse and Surfing to the Future<br/>
+                        (文史脈流台灣行動數位文化資產導覽服務平台)<br/>
+                        <a href="http://deh.csie.ncku.edu.tw/" target="_blank">http://deh.csie.ncku.edu.tw</a>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
